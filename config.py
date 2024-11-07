@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "3737")
 DB_URI = "mongodb+srv://Geturfilebot:5h8Bo72PhzhTY2Es@cluster0.ijy20.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Speedlinkurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "0c90307229ebf84a4185432ce9a0625fb7d4d684")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "bb5d7b74fae544dcbfb8ab0b84bd85909942261a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_download_tutorial_idk/2")
