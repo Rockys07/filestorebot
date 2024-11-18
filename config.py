@@ -10,36 +10,36 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7724918852:AAHm2egGe1R_JW1STl5opD5WgOkOHcfsleg")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29414758"))
+APP_ID = int(os.environ.get("APP_ID", "24899101"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "8cd9e6113ed53dd8767cb760d4535bd1")
+API_HASH = os.environ.get("API_HASH", "fb9f776719c45889f89bd402a0e957e6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002476458183"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002401119761"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6080388435"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1801603476"))
 
 #Port
 PORT = os.environ.get("PORT", "3737")
 
 #Database 
-DB_URI = "mongodb+srv://tgstart00055:dM8zuiOMeZ0HHY04@cluster0.cgvel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://Geturfilebot:5h8Bo72PhzhTY2Es@cluster0.ijy20.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "0a22b1410bbaee7099f2de7e82d1201e8389c1a6")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "bb5d7b74fae544dcbfb8ab0b84bd85909942261a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_download_tutorial_idk/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002305221203"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002307725933"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002443500050"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
